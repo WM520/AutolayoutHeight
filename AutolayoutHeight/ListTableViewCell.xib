@@ -16,7 +16,7 @@
                 <frame key="frameInset" width="428" height="145"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Pds-Nm-6PD">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Pds-Nm-6PD">
                         <constraints>
                             <constraint firstAttribute="width" secondItem="Pds-Nm-6PD" secondAttribute="height" multiplier="1:1" id="bh1-w1-Gtr"/>
                             <constraint firstAttribute="width" constant="80" id="bqw-iD-sax"/>
@@ -44,4 +44,7 @@
             <point key="canvasLocation" x="15" y="-66"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="1.jpg" width="60" height="60"/>
+    </resources>
 </document>
