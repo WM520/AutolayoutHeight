@@ -25,7 +25,6 @@ static NSString *const CellID = @"cell";
     // Do any additional setup after loading the view, typically from a nib.
     (void)self.dataArray;
     (void)self.tableView;
-//    [self loadData];
 }
 
 
@@ -51,8 +50,8 @@ static NSString *const CellID = @"cell";
         tableView.delegate = self;
         tableView.dataSource = self;
         [tableView registerNib:[UINib nibWithNibName:@"ListTableViewCell" bundle:nil] forCellReuseIdentifier:CellID];
-        tableView.rowHeight = UITableViewAutomaticDimension;
-        tableView.estimatedRowHeight = 100;
+//        tableView.rowHeight = UITableViewAutomaticDimension;
+//        tableView.estimatedRowHeight = 100;
         [self.view addSubview:tableView];
         _tableView = tableView;
     }

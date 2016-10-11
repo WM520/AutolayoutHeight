@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BaseViewContrller.h
 //  AutolayoutHeight
 //
 //  Created by forever on 2016/10/11.
@@ -7,11 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BaseViewContrller.h"
 
-
-@interface ViewController : BaseViewContrller
-
+@interface BaseViewContrller : UIViewController
 
 @end
-

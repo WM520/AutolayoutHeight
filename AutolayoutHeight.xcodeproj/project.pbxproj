@@ -18,6 +18,7 @@
 		81060E631DAC96450041E24F /* ListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 81060E611DAC96450041E24F /* ListTableViewCell.m */; };
 		81060E641DAC96450041E24F /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81060E621DAC96450041E24F /* ListTableViewCell.xib */; };
 		81060E671DAC9BCB0041E24F /* ListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 81060E661DAC9BCB0041E24F /* ListModel.m */; };
+		81060E6A1DACB60C0041E24F /* BaseViewContrller.m in Sources */ = {isa = PBXBuildFile; fileRef = 81060E691DACB60C0041E24F /* BaseViewContrller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		81060E621DAC96450041E24F /* ListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
 		81060E651DAC9BCB0041E24F /* ListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListModel.h; sourceTree = "<group>"; };
 		81060E661DAC9BCB0041E24F /* ListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListModel.m; sourceTree = "<group>"; };
+		81060E681DACB60C0041E24F /* BaseViewContrller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewContrller.h; sourceTree = "<group>"; };
+		81060E691DACB60C0041E24F /* BaseViewContrller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewContrller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 			children = (
 				81060E301DAC94000041E24F /* AppDelegate.h */,
 				81060E311DAC94000041E24F /* AppDelegate.m */,
+				81060E681DACB60C0041E24F /* BaseViewContrller.h */,
+				81060E691DACB60C0041E24F /* BaseViewContrller.m */,
 				81060E331DAC94000041E24F /* ViewController.h */,
 				81060E341DAC94000041E24F /* ViewController.m */,
 				81060E601DAC96450041E24F /* ListTableViewCell.h */,
@@ -292,6 +297,7 @@
 				81060E631DAC96450041E24F /* ListTableViewCell.m in Sources */,
 				81060E321DAC94000041E24F /* AppDelegate.m in Sources */,
 				81060E2F1DAC94000041E24F /* main.m in Sources */,
+				81060E6A1DACB60C0041E24F /* BaseViewContrller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
